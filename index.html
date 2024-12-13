@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    
+    <header>
+      <h1>Himanshu Mali</h1>
+      <p>Web developer and 2nd year CS student.</p>
+    </header>
+    
+    <nav>
+      <ul>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" onclick="showAdminLogin()">Admin Login</a></li>
+      </ul>
+    </nav>
+    
+    <button id="toggle-theme">Switch Theme</button>
+    
+    <main>
+      
+      <!--Education Section starts here-->
+      
+      <section id="education" class="section">
+        <h2>Education</h2>
+        
+        <div class="edu-item">
+          <h3>Bachelor of Technology</h3>
+          <p>C.K.Pithawala College of engg. & tech , SURAT, 2023-2027</p>
+          <p>Pursuing </p>
+          </div>
+        
+        <div class="edu-item">
+          <h3>Higher Secondary School, PCM</h3>
+          <p>T.&T.V. Sarvajaink School, SURAT, 2020 - 2022</p>
+          <p>Grade : - 72.42% </p>
+          </div>
+          
+         <div class="edu-item">
+          <h3>Secondary School</h3>
+          <p>Samiti Gujarati Medium School, SURAT, 2021  </p>
+           <p>Grade : - 89.71% </p>
+          </div>
+        
+      </section>
+      
+      <!--Education section ends here-->
+      
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+        
+        <div class="project-item">
+          <h3>E-Commerce Apparel Website</h3>
+          <p>Developed an E-commerce website with Bootstrap</p>
+          </div>
+        
+        <div class="project-item">
+          <h3>Personal Portfolio</h3>
+          <p>Developed my personal portfolio website using HTML, CSS and JS</p>
+          </div>
+        
+        <div class="project-item">
+          <h3>Tic-Tac-Toe</h3>
+          <p>Developed a game, where players take turns marking Xs and Os on a 3x3 grid.</p>
+          </div>
+        
+        <div class="project-item">
+          <h3>Rock-Paper-Scissors</h3>
+          <p>Developed a game, where players Play against the computer with randomized choices.</p>
+          </div>
+          
+      </section>
+      
+      <!-- Project section ends here-->
+      
+      <section id="experience" class="section">
+        <h2>Work Experience</h2>
+        
+        <div class="experience-item">
+          <h3>Student Coordinator</h3>
+          <p>Institute Innovation Council, C.K. Pithawala College</p>
+          <p>Organized technical workshops and hackathons, coordinated with teams, and promoted a culture of innovation among students.</p>
+          <p>2023-Present</p>
+          </div>
+          
+      </section>
+      <!-- Experience section ends-->
+      
+      <section id="skill" class="section">
+        <h2>Skills</h2>
+        
+        <div class="experience-item">
+
+    <h1>Technical Skills</h1>
+    <ul>
+        <li><b>Programming Languages:</b> C, Basic Python</li>
+        <li><b>Technologies:</b> HTML, CSS, MySQL</li>
+        <li><b>Software:</b> Visual Studio Code, CodePen, Databricks</li>
+        <li><b>Concepts:</b> Data Structures, Database Design</li>
+        <li><b>Operating Systems:</b> Windows, Linux</li>
+    </ul>
+
+    <h1>Soft Skills</h1>
+    <ul>
+        <li>Team Collaboration</li>
+        <li>Communication</li>
+        <li>Active Listening</li>
+        <li>Teamwork</li>
+        <li>Leadership</li>
+        <li>Problem Solving</li>
+    </ul>
+</body>
+</html>
+
+          
+
+          </div>
+          
+      </section>
+      
+      <!-- Skill section ends-->
+      
+      <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <input type="text" id="name" placeholder="Your name" required>
+          <input type="email" id="email" placeholder="Your email(GMAIL)" required>
+          <textarea id="message" placeholder="Your message" required></textarea>
+          <div class="contactbtn">
+          <button id="submit">Send</button>
+          </div>
+        </form>
+             
+      </section>
+      
+      <!--Contact section Ends here-->
+      
+      <section id="admin-login" class="section">
+        <h2> Admin Login </h2>
+        <form id="login-form">
+          <input type="text" id="username" placeholder="Username" required>
+          <input type="password" id="password" placeholder="Password" required>
+          <button type="submit">Login</button>
+        </form>
+      </section>
+      
+      <!--Admin Login Section ends here-->
+      <section id="admin-section" class="section">
+        <h2> User Responses </h2>
+        <div id="user-responses"></div> <!-- DIV is a container tag-->
+      </section>
+      
+      
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
